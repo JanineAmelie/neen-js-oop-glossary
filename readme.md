@@ -3,43 +3,11 @@
 **Neen’s OOP Glossary**
 ===================
 
-
-**Table of Contents**
-
- 1. [Abstraction](#Abstraction)
- 2. [Abstract Class](#AbstractClass)
- 3. [Aggregation](#Aggregation)
- 4. [Classes](#Classes)
- 5. [Closure](#Closure)
- 6. [Constructor Functions](#ConstructorFunctions)
- 7. [Composition](#Composition)
- 8. [Delegation](#Delegation)
- 9. [Encapsulation](#Encapsulation)
- 10. [Execution Contexts](#ExecutionContexts)
- 11. [Inheritance](#Inheritance)
- 12. [Instantiation](#Instantiation)
- 13. [Instantiation Patterns](#InstantiationPatterns)
-       a.)[Functional Instantiation](#FunctionalInstantiation)
-     b.)[Functional-Shared Instantiation](#Functional-SharedInstantiation)
-     c.)[Prototypal Instantiation](#PrototypalInstantiation)
-     d.)[PsuedoClassical Instantiation](#PsuedoClassicalInstantiation)
- 14. [Lexical Scopes/In-memory scopes](#LexicalScopes/In-memoryscopes)
- 15. [Dynamic Scoping](#DynamicScoping)
- 16. [Message Passing](#MessagePassing)
- 17. [Method](#Method)
- 18. [Modules](#[Modules)
- 19. [Polymorphism ](#Polymorphism)
- 20. [Prototype Delegation/chains](#PrototypeDelegation/Chains)
- 21. [Recursion](#Recursion)
- 22. [Refactoring Code](#RefactoringCode)
- 23. [Setter Method](#SetterMethod)
- 24. [Stack](#Stack)
-
 ----------
 
 
 ##Abstraction
------------
+
 The inner implementation details and showing only outer details. Hides all but the relevant data about an object in order to reduce complexity and increase efficiency
 
 Abstraction is hiding the information or providing only necessary details to the client.
@@ -51,7 +19,7 @@ e.g Car Brakes- You just know that pressing the pedals will stop the vehicle but
 
 
 ##AbstractClass
----
+
 
 A class primarily intended to define an instance, but can not be instantiated without additional methods.
 
