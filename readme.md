@@ -3,6 +3,8 @@
 **Neen’s OOP Glossary**
 ===================
 
+>Please feel free to suggest edits! I'd really appreciate if this list grows and grows! 
+
 ----------
 
 
